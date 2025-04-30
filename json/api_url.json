@@ -1,0 +1,12 @@
+[
+  {
+    "title": "テスト用商品データ",
+    "url": "https://fakestoreapi.com/products",
+    "id": 1
+  },
+  {
+    "title": "テスト用ユーザーデータ",
+    "url": "https://jsonplaceholder.typicode.com/users",
+    "id": 2
+  }
+]
