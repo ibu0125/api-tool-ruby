@@ -21,9 +21,7 @@ class JsonFileManager
       data["id"]=max_id+1
       exist_data << data
       write(exist_data)
-    end
-
-         
+    end         
   end
 
   def write(data)

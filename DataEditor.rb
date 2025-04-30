@@ -1,8 +1,8 @@
 #data編集
 class DataEditor
-  def serch(data,key,value)
+  def search(data,key,value)
     serch_data=data.select do |user|
-      data_value=nest_serch(user,key)
+      data_value=nest_search(user,key)
       data_value.is_a?(String)&& data_value.include?(value)
     end
 
